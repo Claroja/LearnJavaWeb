@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @EnableAutoConfiguration
 @MapperScan(basePackages = "edu.dao" )
-@ComponentScan(basePackages = {"edu.controller","edu.service"})
+@ComponentScan(basePackages = {"edu.controller","edu.service","edu.config"})
 public class App
 {
     public static void main( String[] args )
