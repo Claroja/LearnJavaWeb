@@ -1,0 +1,6 @@
+1.App主入口中要加@MapperScan扫描Mapper的接口与注释
+2.Mapper接口不需要添加@Mapper注入，会自动注入
+3.理解Mybatis@Insert等查询方法，以及@Param参数传递方法
+4.pom.xml中有个坑是Junit版本和Spring版本不兼容，所以直接使用spring-boot-starter-test，不要自己导Junit的包
+5.application.yaml文件配置
+

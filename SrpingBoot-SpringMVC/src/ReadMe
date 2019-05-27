@@ -1,0 +1,12 @@
+1.掌握lombok包的用法
+2.掌握yaml配置文件用法
+3.resources文件夹静态资源，在ResourceProperties中设置默认为：
+classpath是指resources文件夹，我们一般选用static因为resources重名
+
+classpath:/META-INF/resources/
+classpath:/resources/
+classpath:/static/
+classpath:/public
+
+4.掌握HandlerInterceptor用法与注册WebMvcConfigurer，可以采用Bean的方式注入
+5.使用@Slf4j进行日志处理

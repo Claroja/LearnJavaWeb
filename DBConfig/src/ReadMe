@@ -1,0 +1,4 @@
+1.理解@SpringBootApplication，以及他包含的注解
+2.累计额@Bean对方法的注入，可以将返回值做成Bean
+3.理解@PropertySource，用来载入参数
+4.理解@Configureation，声明类为配置类，和component一样
