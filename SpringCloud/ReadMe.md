@@ -1,0 +1,4 @@
+1.首先编写user-service提供微服务
+2.微服务都是Rest接口,所以url里使用{}并配合@PathVariable进行传参
+3.调用方使用RestTemplate类
+4.idea可以通过RunDashboard同时控制两个工程
