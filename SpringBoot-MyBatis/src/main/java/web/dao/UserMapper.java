@@ -5,6 +5,9 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 
 public interface UserMapper {
 
@@ -13,4 +16,7 @@ public interface UserMapper {
 
     @Select("select * from public.user where username = #{username}")
     public User findByUsername(@Param("username") String username);
+
+    @Select("select * from public.user where username = #{username}")
+    public ArrayList findJson(@Param("username") String username);
 }

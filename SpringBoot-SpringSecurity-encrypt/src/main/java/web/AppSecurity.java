@@ -8,10 +8,4 @@ public class AppSecurity {
 	public static void main(String[] args) {
 		SpringApplication.run(AppSecurity.class, args);
 	}
-
-
-
-
-
-
 }

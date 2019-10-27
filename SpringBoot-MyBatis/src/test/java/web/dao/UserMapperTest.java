@@ -8,6 +8,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import web.model.User;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -26,8 +29,13 @@ public class UserMapperTest {
 
     @Test
     public void select(){
-        User user = userMapper.findByUsername("li");
+        User user = userMapper.findByUsername("wang");
         System.out.println(user);
     }
 
+    @Test
+    public void selectJson(){
+        ArrayList list = userMapper.findJson("wang");
+        System.out.println(list);
+    }
 }
